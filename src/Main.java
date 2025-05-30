@@ -10,8 +10,17 @@ public class Main {
         boolean Story = true;
         System.out.println(Story);
 
-        double salary = 5000.123456789;
+        double salary = 50000.123456789;
         System.out.println(salary);
+
+        int bonus = 50000;
+        System.out.println(bonus);
+
+        double Total = salary + bonus;
+        System.out.println("My total Salary: " + Total);
+
+        int TotalSal = (int) salary + bonus;
+        System.out.println("My total Salary: " + TotalSal);
 
         char alphabet = 'a';
         System.out.println(alphabet);
